@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhuvaneswari R - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Orbitron', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-black text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-black text-white p-4 shadow-md sticky top-0 z-50">
+    <div class="flex justify-between items-center max-w-6xl mx-auto">
+      <div class="text-xl font-bold text-blue-400">My Portfolio</div>
+      <ul class="flex gap-6 text-lg">
+        <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-400">About</a></li>
+        <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+      <img 
+  src="https://cdn.pixabay.com/photo/2022/11/18/12/38/artificial-intelligence-7599750_1280.jpg" 
+  alt="Profile Image"
+  class="w-36 h-36 rounded-full border-4 border-blue-500 shadow-lg mb-6"
+/>
+    <h1 class="text-5xl text-blue-400 font-bold">Bhuvaneswari R</h1>
+    <p class="mt-4 text-lg text-gray-300">Aspiring Web Developer | Python Enthusiast</p>
+    <a href="resume.pdf" target="_blank" class="mt-6 px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded text-white">
+      View Resume
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-800 px-6">
+    <h2 class="text-4xl text-center text-blue-400 font-semibold mb-6">About Me</h2>
+    <p class="max-w-3xl mx-auto text-center text-gray-300 text-lg">
+      I'm a passionate tech student who enjoys learning about web development and programming.
+      I specialize in front-end technologies and have started exploring Python for backend logic and automation.
+    </p>
+    <div class="text-center mt-6">
+      <h3 class="text-2xl font-semibold text-white mb-2">Skills</h3>
+      <p class="text-blue-200 text-lg">HTML, CSS, Tailwind CSS, JavaScript, Python</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-900 px-6">
+    <h2 class="text-4xl text-center text-blue-400 font-semibold mb-10">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-800 rounded-lg p-4 shadow-lg hover:scale-105 transition">
+        <img src="https://via.placeholder.com/300x200" class="mb-4 rounded" alt="Project 1">
+        <h3 class="text-xl font-bold mb-2">To-do List App</h3>
+        <p class="text-gray-400 mb-2">A simple app to manage daily tasks using HTML, CSS, JS.</p>
+        <a href="https://github.com/devtown-projects/sample-project" class="text-blue-400 underline" target="_blank">GitHub</a>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-4 shadow-lg hover:scale-105 transition">
+        <img src="https://via.placeholder.com/300x200" class="mb-4 rounded" alt="Project 2">
+        <h3 class="text-xl font-bold mb-2">Portfolio Website</h3>
+        <p class="text-gray-400 mb-2">Personal site built using Tailwind CSS for design.</p>
+        <a href="https://github.com/devtown-projects/sample-project" class="text-blue-400 underline" target="_blank">GitHub</a>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-4 shadow-lg hover:scale-105 transition">
+        <img src="https://via.placeholder.com/300x200" class="mb-4 rounded" alt="Project 3">
+        <h3 class="text-xl font-bold mb-2">Weather App</h3>
+        <p class="text-gray-400 mb-2">App that shows live weather using an API and JS.</p>
+        <a href="https://github.com/devtown-projects/sample-project" class="text-blue-400 underline" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-800 px-6">
+    <h2 class="text-4xl text-center text-blue-400 font-semibold mb-6">Contact Me</h2>
+    <form class="max-w-xl mx-auto bg-gray-900 p-6 rounded shadow-lg">
+      <input type="text" placeholder="Your Name" class="w-full mb-4 p-3 bg-gray-800 border border-gray-700 text-white rounded" required>
+      <input type="email" placeholder="Your Email" class="w-full mb-4 p-3 bg-gray-800 border border-gray-700 text-white rounded" required>
+      <textarea placeholder="Your Message" class="w-full mb-4 p-3 bg-gray-800 border border-gray-700 text-white rounded" required></textarea>
+      <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-4 bg-black text-gray-400">
+    © 2025 Bhuvaneswari R | Made with Tailwind CSS
+  </footer>
+</body>
+</html>
